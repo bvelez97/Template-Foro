@@ -1,0 +1,47 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main{
+    padding: 0 40px;
+    flex: 70%;
+    background-color: white;
+}
+
+.main h2{
+    text-transform: uppercase;
+    margin-top: 40px;
+    color: var(--color-primary-dark);
+}
+
+.main img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.main .read-more{
+    color: white;
+    text-decoration: none;
+    background-color: var(--color-primary-dark);
+    padding: 10px;
+    border-radius: 10px;
+    transform: all .3s;
+}
+
+.main .read-more:hover{
+    background-color: var(--color-primary);   
+}
+
+#more-post{
+    display: block;
+    color: var(--color-primary-dark);
+    margin-top: 40px;
+    text-align: center;
+}
+
+#more-post:hover{
+    color: var(--color-primary);
+
+}
